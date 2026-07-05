@@ -27,16 +27,6 @@ Building modern, responsive and user-friendly web applications while continuousl
 
 ---
 
-# 📸 Portfolio Preview
-
-> Add your homepage screenshot inside `images/preview.png`
-
-```md
-![Portfolio](images/preview.png)
-```
-
----
-
 # 🚀 About This Project
 
 This is my personal portfolio website built to showcase my skills, projects, certifications, education, and achievements.
