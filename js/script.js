@@ -54,3 +54,14 @@ if (menu && navLinks) {
         navLinks.classList.toggle("active");
     });
 }
+const toggle=document.getElementById("theme-toggle");
+
+toggle.onclick=()=>{
+
+document.body.classList.toggle("dark");
+
+toggle.textContent=
+document.body.classList.contains("dark")
+?"☀️":"🌙";
+
+};

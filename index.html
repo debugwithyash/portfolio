@@ -3,11 +3,46 @@
 <head>
    <title>Yash Chaudhary | Portfolio</title>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yash Chaudhary | Frontend Developer & AI Student</title>
+
+<meta name="description"
+content="Portfolio of Yash Chaudhary, Frontend Developer and AI Student passionate about building modern, responsive web applications using HTML, CSS, JavaScript and React.">
+
+<meta name="keywords"
+content="Yash Chaudhary, Frontend Developer, Portfolio, HTML, CSS, JavaScript, React, AI Student, Gurugram">
+
+<meta name="author"
+content="Yash Chaudhary">
+
+<meta name="robots"
+content="index,follow">
+
+<meta property="og:title"
+content="Yash Chaudhary | Portfolio">
+
+<meta property="og:description"
+content="Frontend Developer | AI Student | Web Developer">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:url"
+content="https://debugwithyash.github.io/portfolio/">
+
+<meta property="og:image"
+content="images/preview.png">
+
+<meta name="theme-color"
+content="#2563eb">
 <link rel="stylesheet" href="css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
@@ -25,14 +60,14 @@
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <button id="theme-toggle">🌙</button>
 
     </div>
 
 </nav>
     <section class="hero">
 
-    <div class="hero-text">
-
+    <div class="hero-text" data-aos="fade-right">
         <p> 👋 Hello, I'm</p>
 
         <h1>Yash Chaudhary</h1>
@@ -63,7 +98,7 @@
 </div>
 </div> 
 
-    <div class="hero-image">
+<div class="hero-image" data-aos="fade-left">
 
       <img src="images/yash.png" alt="Yash Chaudhary">
 
@@ -94,7 +129,7 @@
     </div>
 
 </section>
-    <section id="about">
+    <section id="about" data-aos="fade-up">
 
     <h2>About Me</h2>
 
@@ -125,7 +160,7 @@
 </section>
 
 
-    <section id="skills">
+    <section id="skills" data-aos="zoom-in">
         <h2>Technical Skills</h2>
 
         <div class="skills-container">
@@ -196,30 +231,82 @@
         </div> 
     </section>  
 
-     <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-       <li>HTML with AI – Unstop</li> 
-       <li>CSS with AI – Unstop</li> 
-       <li>Google Cloud – Get Started with Dataplex Skill Badge</li>
-        <li>Tata – GenAI Powered Data Analytics Job Simulation (Forage)</li>
-         <li>GE Aerospace – Explore Engineering Job Simulation (Forage)</li> 
-         <li>AWS APAC – Solutions Architecture Job Simulation (Forage)</li> 
-         <li>Lloyds Banking Group – UX Design Job Simulation (Forage)</li> 
-         <li>Be10X – AI Tools Workshop</li>     
-        </ul>
-     </section>
+   <section id="education" data-aos="fade-up">
 
-    <section id="education">
-        <h2>Education</h2>
+    <h2>🎓 Education</h2>
 
-        <p><strong>Degree:</strong> Bachelor of Technology (B.Tech)</p> 
-        <p><strong>Branch:</strong> Computer Science Engineering (Artificial Intelligence)</p> 
-        <p><strong>University:</strong> Gurugram University, Gurugram</p> 
-        <p><strong>Current Year:</strong> Second Year</p> 
-        <p><strong>Expected Graduation:</strong> 2028</p>
+    <div class="timeline">
 
-    </section>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+                <h3>B.Tech CSE (AI)</h3>
+
+                <h4>Gurugram University</h4>
+
+                <p>2024 – 2028</p>
+
+                <p>
+                    Pursuing Bachelor of Technology in Computer Science
+                    with specialization in Artificial Intelligence.
+                </p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+                <h3>Senior Secondary (CBSE)</h3>
+
+                <h4>Rawal International School</h4>
+
+                <p>Completed in 2024</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+ <section id="certifications" data-aos="fade-up">
+
+    <h2>🏆 Certifications</h2>
+
+    <div class="cert-container">
+
+        <div class="cert-card">
+            <h3>AWS APAC Solutions Architecture</h3>
+            <p>Forage Virtual Experience Program</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>TATA GenAI Data Analytics</h3>
+            <p>Forage Virtual Experience Program</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>GE Aerospace Engineering</h3>
+            <p>Forage Job Simulation</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>Google Dataplex Skill Badge</h3>
+            <p>Google Cloud Skills Boost</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>HTML with AI</h3>
+            <p>Unstop</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>CSS with AI</h3>
+            <p>Unstop</p>
+        </div>
+
+    </div>
+
+</section>
 <section id="experience">
     <h2>Experience & Achievements</h2>
 
@@ -246,28 +333,34 @@
 </section>
 
         
-  <section id="projects">
+  <section id="projects" data-aos="fade-up">
     <h2>Projects</h2>
 
     <div class="projects-container">
-<div class="project-card">
-    <h3>CareerOS AI</h3>
-    <p>
-        CareerOS AI is an AI-powered career assistant designed to help students manage their learning journey, track skills, organize projects, and explore career opportunities. Built with a modern frontend and responsive UI to provide an intuitive user experience.
-    </p>
-    <a href="https://careeros-ai.netlify.app/" target="_blank">
-    <button>🌐 Live Demo</button>
-</a>
+<div class="project-card featured">
 
-<a href="https://github.com/debugwithyash/careeros-ai" target="_blank">
-    <button>💻 GitHub</button>
-</a>
-<div class="tech-stack">
-    <span>React</span>
-    <span>Vite</span>
-    <span>Tailwind</span>
-    <span>Express</span>
-</div>
+    <span class="project-tag">⭐ Featured Project</span>
+
+    <h3>CareerOS AI</h3>
+
+    <p>
+        An AI-powered career dashboard that helps students track
+        skills, projects, internships, and career growth through
+        a modern responsive interface.
+    </p>
+
+    <div class="tech-stack">
+        <span>React</span>
+        <span>Vite</span>
+        <span>Tailwind</span>
+        <span>Express</span>
+    </div>
+
+    <div class="project-buttons">
+        <a href="YOUR_LIVE_LINK" target="_blank" class="project-btn">🌐 Live Demo</a>
+
+        <a href="YOUR_GITHUB_LINK" target="_blank" class="resume-btn">💻 GitHub</a>
+    </div>
 </div>
 
         <div class="project-card">
@@ -390,33 +483,81 @@
     </div>
 </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
+<section id="contact" data-aos="fade-up">
 
-<p><strong>Email:</strong> <a href="mailto:debug.yash05@gmail.com">debug.yash05@gmail.com</a></p>
+<h2>Contact Me</h2>
 
-<p><strong>Phone:</strong> <a href="tel:+919990598905">+91 9990598905</a></p>
+<div class="contact-container">
 
-<p><strong>LinkedIn:</strong> 
-    <a href="https://www.linkedin.com/in/yash-chaudhary-325814329/" target="_blank">
-        linkedin.com/in/yash-chaudhary-325814329
-    </a>
-</p>
+<div class="contact-card">
 
-<p><strong>GitHub:</strong> 
-    <a href="https://github.com/debugwithyash" target="_blank">
-        github.com/debugwithyash
-    </a>
-</p>
+<h3>📧 Email</h3>
+
+<p>chaudharyash0055@gmail.com</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>📱 Phone</h3>
+
+<p>+91 9990598958</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>📍 Location</h3>
+
+<p>Gurugram, Haryana, India</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>🌐 Connect</h3>
+
+<div class="social-links">
+
+<a href="https://github.com/debugwithyash" target="_blank">GitHub</a>
+
+<a href="https://www.linkedin.com/in/yash-chaudhary-325814329/" target="_blank">LinkedIn</a>
+
+<a href="https://www.instagram.com/debug.withyash?igsh=a2U2ZnBvNm53YTBq" target="_blank">Instagram</a>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
 <footer>
-    <p>Let's Connect 🚀</p>
-    <p>© 2026 Yash Chaudhary. All Rights Reserved.</p>
-    <p>Designed & Developed with ❤️ using HTML & CSS.</p>
-    <p>Thanks for visiting my portfolio.</p>
+
+<div class="footer-links">
+
+<a href="https://github.com/debugwithyash" target="_blank">GitHub</a>
+
+<a href="https://www.linkedin.com/in/yash-chaudhary-325814329/" target="_blank">LinkedIn</a>
+
+<a href="mailto:chaudharyyash0055@gmail.com">Email</a>
+
+</div>
+
+<p>© 2026 Yash Chaudhary. All Rights Reserved.</p>
+
+<p>Designed & Developed with ❤️ using HTML & CSS</p>
+
 </footer>
 <script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
 </body>
 </html>
