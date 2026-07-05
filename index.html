@@ -4,216 +4,160 @@
    <title>Yash Chaudhary | Portfolio</title>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<style>
-    html{
-    scroll-behavior:smooth;
-   }
-   img{
-    width:220px;
-    height:220px;
-    border-radius:50%;
-    object-fit:cover;
-    object-position:center 15%;
-    border:5px solid white;
-    box-shadow:0 8px 20px rgba(0,0,0,.2);
-}
-    body{
-        margin:0;
-        padding:0;
-        font-family: Arial, sans-serif;
-        background:#f4f4f4;
-        color:#333;
-    }
-    nav{
-        background:#333;
-       display:flex;
-        justify-content:center;
-        gap:20px;
-        padding:15px;
-        align-items:center;
 
-        position:sticky;
-        top:0;
-        z-index:1000;
-    }
-    nav a{
-        color:white;
-        text-decoration:none;
-        font-weight:bold;
-    }
-    nav a:hover{
-        color:yellow;
-    }
-    header{
-    text-align:center;
-    padding:60px 20px;
-    background:linear-gradient(135deg,#2563eb,#06b6d4);
-    color:white;
-}
-header a{
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-header a:hover{
-    color:#ffd54f;
-}
-    section{
-        padding:20px;
-        max-width:900px;
-        margin:30px auto;
-        background:white;
-        border-radius:10px;
-        box-shadow:0 5px 15px rgba(0,0,0,.1);
-    }
-    h2{
-        color:#2563eb;
-        margin-bottom:10px;
-    }  
-    button{
-    background:#2563eb;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    border-radius:8px;
-    cursor:pointer;
-    transition:.3s;
-}
-
-
-button:hover{
-    background:#1d4ed8;
-    transform:translateY(-3px);
-}
-    section:hover{
-        transform:translateY(-5px);
-        box-shadow:0 10px 20px rgba(0,0,0,.2);
-    }
-    section{
-        transition:.3s;     
-}
-    
-     ul{
-    list-style:none;
-    padding:0;
-    }
-    footer{
-    background:#333;
-    color:white;
-    text-align:center;
-    padding:20px;
-    }
-    #about
-{
-        background:#e0f2fe;
-    }
-    #skills{
-        background:#fef3c7;
-    }
-    #education{
-        background:#d1fae5;
-    }
-    #projects{
-        background:#fef2f2;
-    }
-    #contact{
-        background:#ede9fe;
-    }
-   #certifications li{
-    background:#fff;
-    padding:12px;
-    margin-bottom:12px;
-    border-radius:8px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
-}
-    .projects-container{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;
-    justify-content:center;
-}
-
-.project-card{
-    flex:1 1 280px;
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-    transition:.3s;
-}
-
-.project-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 10px 25px rgba(0,0,0,.2);
-}
-.project-card a{
-    text-decoration:none;
-}
-
-.project-card button{
-    margin-top:10px;
-    margin-right:10px;
-}
-</style>
 <body>
-    <header>
-        <img src="yash.png" alt="Yash Chaudhary">
+    <nav>
+
+    <h2 class="logo">YC</h2>
+
+    <div class="menu-toggle">
+        ☰
+    </div>
+
+    <div class="nav-links">
+
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+</nav>
+    <section class="hero">
+
+    <div class="hero-text">
+
+        <p> 👋 Hello, I'm</p>
+
         <h1>Yash Chaudhary</h1>
-        <p>COMPUTER SCIENCE - ARTIFICIAL INTELLIGENCE | Aspiring Web Developer | Future Data Analyst</p>
-        🐙: <a href="https://github.com/debugwithyash">GitHub</a> | 💼: <a href="https://www.linkedin.com/in/yash-chaudhary-325814329/">LinkedIn</a>
-        <nav>
-            <a href="#about">About</a> 
-            <a href="#skills">Skills</a> 
-            <a href="#certifications">Certifications</a> 
-            <a href="#education">Education</a> 
-            <a href="#experience">Experience</a> 
-            <a href="#projects">Projects</a> 
-            <a href="#contact">Contact</a>
-        </nav>
-        <a href="YashChaudharyResume.pdf" download>
-        <button>View Resume</button>
-        <a href="#contact">
-    <button>Contact Me</button>
-</a>
-        </a>
-    </header>
 
+     <h2>
+    <span class="typing"></span>
+</h2>
+
+        <p class="description">
+    Building modern, responsive web applications with clean UI
+    and a growing passion for Artificial Intelligence.
+    Currently seeking Frontend Development internship opportunities.
+</p>
+<p class="hero-location">
+📍 Gurugram, India • Open to Internships
+</p>
+       <div class="buttons">
+
+    <a href="#projects" class="project-btn">
+        🚀 View Projects
+    </a>
+
+    <a href="resume/YashChaudharyResume.pdf"
+       target="_blank"
+       class="resume-btn">
+        📄 View Resume
+    </a>
+</div>
+</div> 
+
+    <div class="hero-image">
+
+      <img src="images/yash.png" alt="Yash Chaudhary">
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat-card">
+        <h2>7+</h2>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>8+</h2>
+        <p>Certificates</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>100+</h2>
+        <p>Git Commits</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>2+</h2>
+        <p>Hackathons</p>
+    </div>
+
+</section>
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hello! My name is Yash Chaudhary and I am a Computer Science Engineering
-            student specializing in Artificial Intelligence.
-        </p>
 
-        <p>
-            I am passionate about technology, web development, and solving real-world problems through code. 
-            I enjoy building responsive and user-friendly web applications using HTML, CSS, JavaScript, Python, and SQL.
-             I have a strong interest in Frontend Development, Artificial Intelligence, Data Analytics, and Database Management Systems. 
-             I continuously work on improving my technical skills by building projects, participating in hackathons, and learning modern web technologies. 
-             My goal is to become a skilled software developer who creates impactful and innovative digital solutions.
+    <h2>About Me</h2>
 
-        </p>
+    <div class="about-container">
 
-        <p>
-            My goal is to continuously enhance my technical skills, build innovative projects, and grow as a Frontend Developer while exploring Artificial Intelligence and Data Analytics.
-             I aspire to contribute to meaningful software solutions and make a positive impact through technology.
+        <div class="about-card">
+            <h3>🎓 Education</h3>
+            <p>B.Tech CSE (AI)<br>Gurugram University<br>Graduation: 2028</p>
+        </div>
 
-        </p>
-    </section>
+        <div class="about-card">
+            <h3>💻 Focus</h3>
+            <p>Frontend Development, AI, Responsive Web Design and Modern UI.</p>
+        </div>
+
+        <div class="about-card">
+            <h3>📍 Location</h3>
+            <p>Gurugram, Haryana, India</p>
+        </div>
+
+        <div class="about-card">
+            <h3>🎯 Goal</h3>
+            <p>To become a skilled Frontend Developer and build impactful AI-powered products.</p>
+        </div>
+
+    </div>
+
+</section>
 
 
     <section id="skills">
         <h2>Technical Skills</h2>
 
-        <h3>Programming Languages</h3>
-        <ul>
-            <li>JavaScript (Basic)</li>
-            <li>Python</li>
-            <li>SQL</li>
-        </ul>
+        <div class="skills-container">
 
+       <div class="skill-card">
+
+    <h3>Programming</h3>
+
+    <div class="skill">
+        <span>JavaScript</span>
+        <div class="progress">
+            <div class="progress-bar js">75%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <span>Python</span>
+        <div class="progress">
+            <div class="progress-bar py">70%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <span>SQL</span>
+        <div class="progress">
+            <div class="progress-bar sql">65%</div>
+        </div>
+    </div>
+
+</div>
+     
+<div class="skill-card">
         <h3>Frontend Development</h3>
         <ul>
             <li>HTML5</li>
@@ -221,7 +165,8 @@ button:hover{
             <li>Responsive Web Design</li>
             <li>Basic JavaScript (ES6)</li>
         </ul>
-
+</div>
+<div class="skill-card">
         <h3>Database</h3>
         <ul>
             <li>DBMS</li>
@@ -229,6 +174,8 @@ button:hover{
             <li>SQL Queries</li>
             
         </ul>
+</div>
+<div class="skill-card">
         <h3>Tools & Technologies</h3> 
         <ul> 
             <li>Git & GitHub</li> 
@@ -236,6 +183,8 @@ button:hover{
             <li>Netlify</li>
             <li>Figma (Basic)</li> 
         </ul>
+</div>
+<div class="skill-card">
         <h3>Soft Skills</h3> 
         <ul> 
             <li>Problem Solving</li> 
@@ -243,7 +192,8 @@ button:hover{
             <li>Teamwork</li> 
             <li>Time Management</li> 
             <li>Quick Learner</li> 
-        </ul>   
+        </ul>  
+        </div> 
     </section>  
 
      <section id="certifications">
@@ -312,40 +262,109 @@ button:hover{
 <a href="https://github.com/debugwithyash/careeros-ai" target="_blank">
     <button>💻 GitHub</button>
 </a>
+<div class="tech-stack">
+    <span>React</span>
+    <span>Vite</span>
+    <span>Tailwind</span>
+    <span>Express</span>
 </div>
+</div>
+
         <div class="project-card">
             <h3>Personal Portfolio Website</h3>
             <p>
                 Designed and developed a responsive personal portfolio website using HTML and CSS to showcase my skills, projects, certifications, and contact information.
             </p>
+            <a href="https://yashhchaudharyportfolio.netlify.app/" target="_blank">
+                <button>🌐 Live Demo</button>
+            </a>
+
+            <a href="https://debugwithyash.github.io/portfolio/" target="_blank">
+                <button>💻 GitHub</button>
+            </a>
+              <div class="tech-stack">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+</div>
         </div>
+      
 
         <div class="project-card">
             <h3>Student Success Dashboard</h3>
             <p>
                 Built a responsive dashboard interface using HTML and CSS to display student information, performance, and analytics in a clean and user-friendly layout.
             </p>
-        </div>
+            <a href="https://studentsuccessdashboard.netlify.app/" target="_blank">
+                <button>🌐 Live Demo</button>
+            </a>
 
+            <a href=" https://debugwithyash.github.io/STUDENT-SUCCESS-DASHBOARD/" target="_blank">
+                <button>💻 GitHub</button>
+            </a>
+              <div class="tech-stack">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+</div>
+        </div>
+        
         <div class="project-card">
             <h3>Expense Tracker</h3>
             <p>
                 Developed an Expense Tracker using HTML, CSS, and JavaScript that allows users to add, manage, and track their daily expenses.
             </p>
+            <a href="https://expensivestracker.netlify.app/" target="_blank">
+                <button>🌐 Live Demo</button>
+            </a>
+
+            <a href="https://debugwithyash.github.io/expense-tracker/" target="_blank">
+                <button>💻 GitHub</button>
+            </a>
+              <div class="tech-stack">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+</div>
         </div>
+        
 
         <div class="project-card">
             <h3>AI & Robotics Workshop Landing Page</h3>
             <p>
                 Created a responsive landing page featuring workshop details, registration form, FAQ section, and modern UI design.
             </p>
+            <a href="https://airoboticworkshop.netlify.app/" target="_blank">
+                <button>🌐 Live Demo</button>
+            </a>
+            <a href="https://debugwithyash.github.io/ai-robotics-workshop/" target="_blank">
+                <button>💻 GitHub</button>
+            </a>
+              <div class="tech-stack">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+</div>
         </div>
+      
 
         <div class="project-card">
-            <h3>Student Internship Tracker</h3>
+            <h3>AI Resume Analyzer</h3>
             <p>
-                Designed a web interface to manage internship applications, deadlines, and application status.
+                Developed an AI-powered resume analyzer to provide insights and recommendations for job seekers.
             </p>
+
+            <a href="https://airesume-analyz.netlify.app/" target="_blank">
+                <button>🌐 Live Demo</button>
+            </a>
+            <a href="https://debugwithyash.github.io/AI-RESUME-ANALYZER/" target="_blank">
+                <button>💻 GitHub</button>
+            </a>
+              <div class="tech-stack">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+</div>
         </div>
 
         <div class="project-card">
@@ -353,7 +372,20 @@ button:hover{
             <p>
                 Developed a responsive website for a laundry service with a modern homepage and clean user experience.
             </p>
+
+            <a href="https://laundryy-mart.netlify.app/" target="_blank">
+                <button>🌐 Live Demo</button>
+            </a>
+            <a href=" https://debugwithyash.github.io/laundry-mart/" target="_blank">
+                <button>💻 GitHub</button>
+            </a>
+              <div class="tech-stack">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+</div>
         </div>
+      
 
     </div>
 </section>
@@ -385,6 +417,6 @@ button:hover{
     <p>Designed & Developed with ❤️ using HTML & CSS.</p>
     <p>Thanks for visiting my portfolio.</p>
 </footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>
