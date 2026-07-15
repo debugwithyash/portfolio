@@ -9,7 +9,7 @@ Building modern, responsive and user-friendly web applications while continuousl
 </p>
 
 <p>
-<a href="https://yashhchaudharyportfolio.netlify.app"><img src="https://img.shields.io/badge/🌐 Live Portfolio-2563EB?style=for-the-badge"></a>
+<a href="https://debugwithyash.github.io/portfolio/"><img src="https://img.shields.io/badge/🌐 Live Portfolio-2563EB?style=for-the-badge"></a>
 <a href="https://github.com/debugwithyash"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/yash-chaudhary-325814329/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
@@ -23,7 +23,7 @@ Building modern, responsive and user-friendly web applications while continuousl
 
 ### 🔗 Portfolio
 
-**https://yashhchaudharyportfolio.netlify.app**
+**https://debugwithyash.github.io/portfolio/**
 
 ---
 
